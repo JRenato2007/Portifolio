@@ -1,55 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
     font-weight: 400;
     font-family: "Poppins", 'Times New Roman', Times, serif;
 }
+
+body {
+    background: #003049;
+}
+
 .cabecalho {
     width: 100%;
     height: 100px;
     background: #08080c;
     color: #fff;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 0;
 }
+
 .cabecalho h1 {
-    padding: 0px 0px 0px 15px ;
+    padding: 0px 0px 0px 15px;
 }
-.dev{
+
+.dev {
     color: #cfaf63;
     font-size: 45px;
 }
-.list-ordenator{
+
+.title {
+    font-size: 55px;
+}
+
+.list-ordenator {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
-.itens{
+
+.itens {
     margin: 15px;
 }
-.itens:hover{
+
+.itens:hover {
     transition: 0.5s all;
-    color: #003049;
+    color: #cfaf63;
 }
-.home{
+
+.home {
     width: 100%;
     height: 500px;
+    margin: auto;
     background: #003049;
-    padding-top: 300px;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
-.home h2 { 
+
+.home h2 {
     font-size: 4rem;
 }
+
 button {
     width: 120px;
     height: 50px;
@@ -57,38 +74,47 @@ button {
     border-radius: 225px;
     border: #cfaf63 1px solid;
     margin: 15px;
-    font-size: 17px ;
+    font-size: 17px;
 }
-button:hover{
+
+button:hover {
     background: #08080c;
     color: #fff;
     transition: 0.5s all;
 }
-.line-divisor{
+
+.line-divisor {
     width: 100%;
     border: 2px black solid;
+    /* position: absolute;
+    bottom: 200px; */
 }
-.center{
+
+.center {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.sbr{
+
+.sbr {
     width: 100%;
     height: 500px;
     padding-top: 25px;
     background: #003049;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
-.container-sbr{
+
+.container-sbr {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.text-sbr{
+
+.text-sbr {
     display: flex;
     align-items: center;
     float: left;
@@ -96,11 +122,51 @@ button:hover{
     border: solid 1px;
     border-radius: 50px 0px 50px 0px;
 }
-.img-sbr{
-    float: right;
-}
+
 .img-sbr img {
-    width: 250px ;
+    width: 250px;
     height: 200px;
-    border-radius:50% ;
+    border-radius: 50%;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-cars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+
+.habs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.habs img {
+    width: 45px;
+    height: 45px;
 }
